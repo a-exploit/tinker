@@ -1,0 +1,246 @@
+body{
+	width:100%;
+	margin: 0;
+			font-family: Roboto Condensed,sans-serif!important;
+
+}
+h1{
+	display: inline;
+	font-weight: 700;
+	font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.75rem;
+    display: block;
+    font-weight: 700;
+}
+h3 {
+    font-style: normal;
+    line-height: normal;
+    font-size: 1.5rem;
+    color: #393939;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.open{
+	padding: 16.6875rem 100px 12.65em;
+	background: radial-gradient(122em at 72.24% 45.79%,#6882c6 0,#142c69 100%);
+	font-family: Roboto Condensed,sans-serif!important;
+}
+.b{
+	font-size:5rem;
+	font-weight: 700;
+	color:rgb(255,255,255);
+}
+.s{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: 350;
+	font-size:1.25rem;
+	color:rgba(255,255,255,.5);
+}
+.bt button{
+	padding:.7rem;
+	background:none;
+	border: .8px solid white;
+	font-weight: 700;
+	cursor: pointer;
+	color: white;
+	text-transform: uppercase;
+	transition: all .2s ease;
+}
+button:hover{
+	color:blue;
+	background-color: white;
+}
+.timings{
+	color:white;
+	opacity: .5;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-top:2rem;
+}
+.time{
+	color: white;
+	font-size: .9rem;
+}
+hr{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	opacity: .7;
+}
+.fac{
+
+	padding: 3rem 7.2vh .8rem;
+	background: rgba(240,240,240,.8);
+}
+#f1 {
+	opacity: .7;
+	margin-left: 3.5rem;
+	padding-right: 67vw;
+}
+#f2 {
+	opacity: .7;
+	margin-left: 3.5rem;
+	padding-right: 62.5rem;
+}
+.products{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+.products .product{
+	border-radius: .25rem;
+	transition: all .5s ease;
+}
+.im{
+	display: grid;
+	width: 100%;
+	justify-items:center;
+}
+.im img{
+	width: 80%;
+	transition: all .3s ease;
+}
+
+.txxt{
+	font-weight: 700;
+	text-align: center;
+	line-height: normal;
+
+
+}
+.txxt span{
+	position: relative;
+	margin:0;
+padding: 0;
+}
+.product:hover{
+	background-color: white;
+	border-radius: 2px;
+	border-color: gray;
+	box-shadow: 0 1.2px 18px gray;
+
+}
+.product:hover span{
+	border-bottom: 3px solid #4e7bee;
+ }
+.product:hover img{
+	transform:scale(1.4);
+}
+.upt{
+	padding: 3rem 7.2vh 8rem;
+}
+.notes{
+    display: block;
+    background-color: #f0f1f6;
+    padding: 8.125rem 7.2vw;
+
+}
+.updates{
+	display: grid;
+	grid-template-columns: 43% 43%;
+	margin-top: 4rem;
+	grid-column-gap: 8vw;
+	grid-row-gap: 8.25vw;
+	padding-left: 3rem;
+
+}
+.updates .div{
+	width:100%;
+}
+.upt .updates div div, .upt .updates div span {
+    line-height: 1.4375rem;
+    font-size: 1.125rem;
+    color: #393939;
+    opacity: .5;
+}
+.updates div div{
+	text-align: justify;
+	font-weight: 100;
+
+}
+.notes .notes_author {
+    padding-top: 4.5rem;
+    display: grid;
+    grid-template-columns: 5.625rem 50%;
+    grid-column-gap: .625rem;
+}
+.notes .notes_author .image img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+.notes .notes_author .details {
+    display: grid;
+    align-items: center;
+}
+.notes .notes_author .details .author_name {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+.notes .notes_author .details .designation {
+    font-size: 1.125rem;
+    color: rgba(57,57,57,.5);
+}
+
+.fimg img{
+	width:6rem;
+	height: auto;
+}
+.fimg div{
+	padding-top: 1%;
+	width:100%;
+	line-height: 23px;
+    font-size: 18px;
+    letter-spacing: .01em;
+    margin: 0;
+    padding: 0;
+    color: #393939;
+    opacity: .5;
+}
+footer{
+	padding: 20vh 7.2vw 2rem;
+	    display: grid;
+    grid-template-columns: 18% 7% 7% 15% 33%;
+    grid-column-gap: 6vw;
+}
+.foot ul {
+    list-style: none;
+    max-width: 100%;
+}
+.foot ul li .first-text {
+    padding-top: 26px;
+}
+.foot ul li a {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+    font-size: 1.125rem;
+    text-align: justify;
+    letter-spacing: .01em;
+    color: #393939;
+    opacity: .5;
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4375rem;
+    font-size: 1.125rem;
+    text-align: justify;
+    letter-spacing: .01em;
+    padding-top: 1em;
+    color: #393939;
+    opacity: .5;
+}
+.footer_credits {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+}
+.footer_credits img {
+    height: 1em;
+    vertical-align: initial;
+}
