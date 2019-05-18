@@ -24,7 +24,7 @@ h3 {
     display: inline;
 }
 .open{
-	padding: 16.6875rem 100px 12.65em;
+	padding: 16.6875rem 10vw 12.65em;
 	background: radial-gradient(122em at 72.24% 45.79%,#6882c6 0,#142c69 100%);
 	font-family: Roboto Condensed,sans-serif!important;
 }
@@ -34,8 +34,8 @@ h3 {
 	color:rgb(255,255,255);
 }
 .s{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
 	font-weight: 350;
 	font-size:1.25rem;
 	color:rgba(255,255,255,.5);
@@ -210,7 +210,7 @@ footer{
     max-width: 100%;
 }
 .foot ul li .first-text {
-    padding-top: 26px;
+    padding-top: 2.5vw;
 }
 .foot ul li a {
     font-style: normal;
