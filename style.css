@@ -211,7 +211,7 @@ hr{
     opacity: .5;
 }
 footer{
-	padding: 20vh 7.2vw 2rem;
+	padding: 4vh 4.2vw 2rem;
   display:flex;
 /* 	flex-wrap:wrap; */
 	flex-direction: row;
