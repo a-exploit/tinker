@@ -95,15 +95,15 @@ hr{
 	padding-right: 62.5rem;
 }
 .products{
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
+	display: flex;
+/* 	grid-template-columns: 25% 25% 25% 25%; */
 }
 .products .product{
 	border-radius: .25rem;
 	transition: all .5s ease;
 }
 .im{
-	display: grid;
+	display: flex;
 	width: 100%;
 	justify-items:center;
 }
@@ -118,7 +118,7 @@ hr{
 	line-height: normal;
 }
 .txxt span{
-	/*position: relative;*/
+	position: relative;
 	margin:0;
 	padding: 0;
 }
@@ -209,7 +209,7 @@ hr{
 footer{
 	padding: 20vh 7.2vw 2rem;
   display:flex;
-	flex-wrap:wrap;
+/* 	flex-wrap:wrap; */
 	flex-direction: row;
 }
 
