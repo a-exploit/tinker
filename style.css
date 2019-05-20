@@ -105,10 +105,12 @@ hr{
 .im{
 	display: flex;
 	width: 100%;
-	justify-items:center;
+	justify-content:center;
+	align-items: flex-end;
 }
 .im img{
 	width: 80%;
+	height: auto;
 	transition: all .3s ease;
 }
 
@@ -215,6 +217,8 @@ footer{
 
 .foot ul {
     list-style: none;
+	   display: flex;
+	   flex-direction: column;
 /*     max-width: 100%; */
 }
 .foot ul li .first-text {
